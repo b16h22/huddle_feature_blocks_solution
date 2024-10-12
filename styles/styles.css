@@ -1,0 +1,414 @@
+
+    * {
+      font-family: 'Open Sans';
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: white;
+    }
+
+    .page-main {
+      max-width: 100%;
+      background-image: url('../images/bg-hero-desktop.svg');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-color: hsl(193, 100%, 96%);
+      min-height: 100vh;
+      padding: 3rem 4.5rem;
+    }
+
+    .logo {
+      width: 18%;
+    }
+
+    .main-content {
+      display: flex;
+      align-items: center;
+      margin-top: 4.5rem;
+    }
+
+    .main-text {
+      width: 45%;
+      margin-right: 3.5rem;
+    }
+
+    .coverimage {
+      width: 55%;
+    }
+
+    .image1 {
+      max-width: 100%;
+    }
+
+    .floating-card-section {
+      background-image: linear-gradient(180deg, white 70%, hsl(192, 100%, 9%) 30%);
+    }
+
+    .footer {
+      color: hsl(193, 100%, 96%);
+      background-color: hsl(192, 100%, 9%);
+      padding: 6rem;
+    }
+
+    .info {
+      max-width: 100%;
+      padding-top: 1rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    .logo-footer {
+      width: 20%;
+    }
+
+    .contact {
+      width: 40%;
+    }
+
+    .contact-item {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .contact-icon {
+      display: inline-block;
+      vertical-align: top;
+    }
+    
+    .address {
+      max-width: 80%;
+      margin: 0;
+      padding-left: 2rem;
+      display: inline-block;
+    }
+
+    .links {
+      width: 40%;
+      display: flex;
+    }
+
+    .links div {
+      width: 50%;
+    }
+
+    .links a {
+      color: hsl(193, 100%, 96%);
+      display: block;
+      padding: 0.75rem;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      text-decoration-line: underline;
+    }
+
+    .social {
+      width: 20%;
+    }
+
+    .fa-brands {
+      border-radius: 50%;
+      border: 2px solid white;
+      color: white;
+      font-size: 1rem;
+      margin: 0.5rem 0 0 0.5rem;
+      padding: 0.6rem;
+      height: 1rem;
+      width: 1rem;
+      text-align: center;
+    }
+
+    .fa-brands:hover {
+      color: hsl(322, 100%, 66%);
+      border: 2px solid hsl(322, 100%, 66%);
+    }
+
+    .copyright {
+      text-align: end;
+      font-size: 0.6rem;
+      margin: 0;
+    }
+
+    /* cards */
+
+    .card-section {
+      padding: 9.5rem 6rem;
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: auto auto auto;
+      gap: 2rem;
+    }
+
+    .card {
+      display: flex;
+      align-items: center;
+      border-radius: 1rem;
+      padding: 2.5rem;
+      background-color: white;
+      box-shadow: 0 0px 8px hsla(192, 100%, 9%, 0.1);
+    }
+
+    .one {
+      grid-row: 1;
+      flex-direction: row-reverse;
+    }
+
+    .two {
+      grid-row: 2;
+      padding-left: 7.5rem;
+    }
+
+    .three {
+      grid-row: 3;
+      flex-direction: row-reverse;      
+    }
+
+    .image2, .image3, .image4 {
+      max-width: 40%;
+    }
+
+    .card-text {
+      padding: 5rem;
+    }
+
+    .two .card-text {
+      padding: 0 0 0 7.5rem;
+    }
+
+    .floating-card {
+      width: 50%;
+      margin-inline: auto; 
+      text-align: center;
+      padding: 3rem;
+      border-radius: 1rem;
+      color: hsl(192, 100%, 9%);
+      background-color: white;
+      box-shadow: 0 0px 8px hsla(192, 100%, 9%, 0.2);  
+    }
+
+    .floating-card h2 {
+      margin-top: 0;  
+    }
+
+    /* Buttons */
+
+    .free {
+      float: right;
+      border-radius: 2rem;
+      border: none;
+      padding: 1rem 4rem;
+      background-color: white;
+      color: hsl(192, 100%, 9%);
+      font-weight: 700;
+      box-shadow: 0 4px 8px hsla(192, 100%, 9%, 0.1);
+    }
+
+    .start-free {
+      border-radius: 2rem;
+      border: none;
+      padding: 1rem 4rem;
+      margin-top: 1rem;
+      background-color: hsl(322, 100%, 66%);
+      color: white;
+      font-weight: 700;
+      box-shadow: 0 4px 8px hsla(322, 100%, 66%, 0.2);
+    }
+
+    .start-free2 {
+      border-radius: 2.5rem;
+      border: none;
+      width: 60%;
+      padding: 1.5rem 0;
+      margin-top: 1rem;
+      background-color: hsl(322, 100%, 66%);
+      color: white;
+      font-size: 1.25rem;
+      font-weight: 600;
+      box-shadow: 0 4px 8px hsla(192, 100%, 9%, 0.1);
+    }
+
+    .free:hover {
+      color: hsl(208, 11%, 55%);
+      box-shadow: 0 0 8px hsla(192, 100%, 9%, 0.1);
+    }
+
+    .start-free:hover {
+      background-color: hsl(322, 100%, 75%);
+    }
+
+    .start-free2:hover {
+      background-color: hsl(322, 100%, 75%);
+    }
+
+    /* text */
+
+    .title-main, .title-medium {
+      color: hsl(192, 100%, 9%);
+      font-family: Poppins;
+      font-weight: 600;
+    }    
+
+    .title-main {
+      font-size: 2.5rem;
+    }
+
+    .title-medium {
+      font-size: 1.75rem;     
+    }
+
+    .desc-main {
+      color: hsl(192, 100%, 9%);
+      font-weight: 500;
+    }
+
+    .desc-medium {
+      color: hsl(208, 11%, 55%);
+    }
+
+    @media screen and (max-width:48em) {
+
+      .page-main {
+        background-image: url('../images/bg-hero-mobile.svg');
+        padding: 2rem 2rem;
+      }
+
+      .logo {
+        width: 35%;
+      }
+
+      .logo-footer {
+        width: 50%;
+      }
+
+      .main-content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 0 1rem;
+      }
+
+      .main-text {
+        width: 100%;
+        margin: 0;
+      }
+
+      .coverimage {
+        width: 100%;
+        margin-top: 4rem;
+      }
+
+      .footer {
+        padding: 4rem 2rem;
+      }
+
+      .info {
+        flex-direction: column;
+      }
+
+      .contact, .links, .social {
+        width: 100%;
+      }
+
+      .links {
+        flex-direction: column;
+        padding: 2rem 0;
+      }
+
+      .links a {
+        font-size: 1.5rem;
+        width: 100%;
+        padding: 0.75rem 0;
+        display: block;
+      }
+
+      .social {
+        text-align: center;
+        padding: 2rem 0;
+      }
+
+      .copyright {
+        max-width: 100%;
+        text-align: center;
+        font-size: 1rem;
+      }
+
+      .contact-icon {
+        height: 1.5rem;
+      }
+
+      .contact-item {
+        margin-bottom: 2rem;
+      }
+
+      /* cards */
+
+      .card-section {
+        padding: 4rem 2rem;
+        gap: 2rem;
+      }
+
+      .card {
+        padding: 3rem;
+        padding-bottom: 0;
+      }
+
+      .one, .two, .three {
+        flex-direction: column;
+      }
+
+      .image2, .image3, .image4 {
+        max-width: 100%;
+      }
+
+      .card-text {
+        padding: 2rem 0;
+        text-align: center;
+      }
+
+      .two .card-text {
+        padding: 2rem 0;
+      }
+
+      .floating-card-section {
+        padding: 0;
+      }
+      
+      .floating-card {
+        width: 80%;
+        padding: 2rem; 
+      }
+
+      /* Buttons */
+      
+      .free {
+        padding: 0.5rem 2rem;
+      }
+
+      .start-free {
+        padding: 1rem 0;
+        width: 80%;
+      }
+
+      .start-free2 {
+        width: 75%;
+        padding: 1rem 0;
+        font-size: 1rem;
+      }
+
+      /* text */
+
+      .title-main {
+        font-size: 2rem;
+      }
+  
+      .title-medium {
+        font-size: 1.5rem;     
+      }
+
+      .desc-main, .desc-medium, .address {
+        font-size: 1.25rem; 
+      }
+
+    }
